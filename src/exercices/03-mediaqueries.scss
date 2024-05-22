@@ -6,3 +6,20 @@
   background: #f1faee;
   font-size: 14px;
 }
+
+@media (min-width: 768px) {
+  .navigation {
+    transform: scale(1.4);
+  }
+}
+
+@media (min-width: 1040px) {
+  .navigation {
+    transform: scale(1);
+    flex-direction: row;
+
+  }
+  a {
+    font-size: 20px;
+  }
+}
